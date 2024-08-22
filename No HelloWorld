@@ -5,7 +5,7 @@
 	int main()  {
 		int a, b, c, d, e;
 		cin >> a >> b >> c >> d >> e;
-		int pr = a + b + c + d + e;
+		int pr = a + b + c + d - e;
 		cout << pr;
 		int average = pr / 5;
 		cout << average;
